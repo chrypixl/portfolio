@@ -1,3 +1,17 @@
 :root {
-    
+    --primary: rgb(59, 52, 52);
+    --contrast: rgb(white);
+}
+
+body {
+    background-color: lightblue;
+    color: var(--primary);
+}
+
+section {
+
+}
+
+p {
+
 }

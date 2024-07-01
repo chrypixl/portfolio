@@ -9,21 +9,27 @@
 </head>
 
 <body>
-    <header> <!--Align header contents-->
-        <img src="assets/images/IMG_4016.jpg" alt="A person wearing a cap and jacket stands in front of a copper still.">
-        <!--alttext.ai used to generate alt text-->
-        <h1>Chris Moore</h1>
-        
-        <p><bold>i &lt;code&gt; ok.</bold></p>
-        
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#work">My Work</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#contact">Say Hello</a></li>
-            </ul>        
-        </nav>
+    <header> <!--Align header contents. Create a div for img and h1, a div for p, and a div for ul, then adjust flex terms for each div.-->
+        <div id="headername">
+            <img src="assets/images/IMG_4016.jpg" alt="A person wearing a cap and jacket stands in front of a copper still.">
+            <!--alttext.ai used to generate alt text-->
+            <h1>Chris Moore</h1>
+        </div>
+
+        <div id="headertext">
+            <p><bold>i &lt;code&gt; ok.</bold></p>
+        </div>
+
+        <div id="headerlinks">
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#work">My Work</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#contact">Say Hello</a></li>
+                </ul>        
+            </nav>
+        </div>
         
     </header> 
     
@@ -32,7 +38,7 @@
         <section id="about">
          <!--About Me section-->
          <h2>About Me</h2>
-         <p>
+            <p>
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam quas laudantium! Doloremque alias sit, earum eos beatae ullam corrupti a ea sequi aspernatur nesciunt iusto aliquam omnis magnam quas.
             </p>
         </section>

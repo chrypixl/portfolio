@@ -47,5 +47,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+
+## Credits
+
+**alttext.ai** used to generate alt text.
+
+The form was created using code from **Activity #20** in the **02-Advanced-CSS** module with some changes made for personalization.
+
 ---
 

@@ -9,10 +9,9 @@
 </head>
 
 <body>
-    <header> <!--Align header contents. Create a div for img and h1, a div for p, and a div for ul, then adjust flex terms for each div.-->
+    <header> 
         <div id="headername">
             <img src="assets/images/IMG_4016.jpg" alt="A person wearing a cap and jacket stands in front of a copper still.">
-            <!--alttext.ai used to generate alt text-->
             <h1>Chris Moore</h1>
         </div>
 
@@ -24,6 +23,7 @@
                 <li><a href="#work">My Work</a></li>
                 <li><a href="#">Resume</a></li>
                 <li><a href="#contact">Say Hello</a></li>
+                <li><a href="#guestbook">Sign the Guestbook</a></li>
             </ul>        
         </nav>
         
@@ -32,7 +32,6 @@
     <main>
         
         <section id="about">
-         <!--About Me section-->
          <h2>About Me</h2>
             <p>
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam quas laudantium! Doloremque alias sit, earum eos beatae ullam corrupti a ea sequi aspernatur nesciunt iusto aliquam omnis magnam quas.
@@ -40,7 +39,6 @@
         </section>
         
         <section id="work">
-            <!--Work section-->
           <h2>Work</h2>
 
           <ul class="cards">
@@ -141,6 +139,39 @@
                     <bolder>LinkedIn: </bolder> <a href="#">Coming Soon!</a>
                 </li>
             </ul>
+        </section>
+
+        <section id="guestbook">
+            <form>
+                <h3>Sign the Guestbook</h3>
+                <p>
+                    <label for="username">Name:</label>
+                    <input class="text-input" id="username" type="text" placeholder="First Last" />
+                </p>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input class="text-input" id="email" type="text" placeholder="me@example.com" />
+                </p>
+                <p class="flex-row">
+                    <label for="expertise">Developer Experience</label>
+                    <select id="expertise">
+                        <option>Beginner</option>
+                        <option selected>Intermediate</option>
+                        <option>Advanced</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="comment">Comment:</label>
+                    <textarea class="text-input" id="comment" placeholder="Sarcastic comments recommended"></textarea>
+                </p>
+                <p class="flex-row">
+                    <input class="checkbox" id="agreement" type="checkbox" />
+                    <label for="agreement">I agree to share my e-mail address with the Guestbook.</label>
+                </p>
+                <p>
+                    <button>Submit</button>
+                </p>
+            </form>
         </section>
 
     </main>

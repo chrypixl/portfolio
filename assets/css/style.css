@@ -80,6 +80,85 @@ body {
     transform: scale(1.5);
   }
 
+  form {
+    max-width: 350px;
+  }
+  
+  form h3 {
+    font-size: 150%;
+  }
+  
+  form p {
+    margin: 3% 0;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  button {
+    padding: 1% 2%;
+    color: #fff;
+    background-color: #13293d;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+   select {
+    appearance: none;
+  }
+  
+  .text-input {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .text-input, select {
+    padding: 1%;
+    outline: none;
+    border: 1.2px solid #aebfc6;
+  }
+  
+  .text-input:hover, .checkbox:hover, 
+  select:hover, button:hover {
+    box-shadow: 0 0 5px #999;
+  }
+  
+  .text-input:focus {
+    border-right-width: 5px;
+  }
+  
+  .flex-row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .flex-row select {
+    flex: 1 0 0;
+    margin-left: 2%;
+  }
+  
+  .flex-row input {
+    margin-right: 2%;
+  }
+  
+  .checkbox:checked + label {
+    color: #999999;
+    font-style: italic;
+  }
+  
+  .checkbox:checked + label::after {
+    margin-left: 10px;
+    font-size: 90%;
+    content: "(Thank you!)";
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    text-decoration: solid, underline;
+  }
 
 @media screen and (max-width: 992px) {
     header {
@@ -90,7 +169,7 @@ body {
   }
 
 @media screen and (max-width:768px) {
-  body {
+  main {
     align-items: flex-start;
   }
 }

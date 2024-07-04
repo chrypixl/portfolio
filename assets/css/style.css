@@ -41,6 +41,10 @@ body {
   h2 {
     margin: 2% 0%;
     font-size: 250%;
+    background-image: linear-gradient(90deg, rgba(57, 210, 248, 1), rgba(48, 97, 96, 1) 98%);
+    border-bottom: 8px solid rgb(11 62 91 / 80%);
+    width: 240px;
+    border-radius: 20px 20px 0 15px;
   }
   
   nav ul {
